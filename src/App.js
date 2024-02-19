@@ -6,6 +6,7 @@ import {PlayButton,UploadButton} from './Button';
 import Greeting from './Greeting';
 import SculptGallery from './SculptGallery';
 import Counter from './Counter';
+import Bantu from './Bantu';
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <SculptGallery/>
       <div className='breakers'>Counter</div>
       <Counter/>
+      <Bantu/>
 
 
     </div>
